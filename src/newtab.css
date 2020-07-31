@@ -1,0 +1,78 @@
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to top, #2222 0%, #fafafa 33%);
+}
+
+button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #666;
+  cursor: pointer;
+  font-size: 48px;
+  height: 48px;
+  line-height: 1;
+  padding: 0;
+  text-decoration: none;
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  outline: none;
+}
+
+button:hover {
+  color: #888;
+}
+
+h1 {
+  color: #222;
+  font-family: Merriweather, Georgia, serif;
+  font-size: 8vw;
+  font-weight: bolder;
+  line-height: 1.15;
+  margin: 0 auto 50vh;
+  height: 25%;
+  width: 95%;
+  text-align: center;
+}
+
+body.dark {
+  background: linear-gradient(to top, #121212 0%, #222 33%);
+}
+
+body.dark h1 {
+  color: #e0e0e0;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 7vw;
+    margin: 0 auto 40vh;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 6vw;
+    margin: 0 auto 33vh;
+    width: 85%;
+  }
+}
+
+@media (min-width: 1920px) {
+  h1 {
+    font-size: 5vw;
+    margin: 0 auto 25vh;
+    width: 80%;
+  }
+}

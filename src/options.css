@@ -1,0 +1,67 @@
+html,
+body {
+  color: #222;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #fafafa;
+}
+
+main {
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1;
+  margin: 0 auto;
+}
+
+#options {
+  display: block;
+  padding: 16px;
+}
+
+select {
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+button {
+  appearance: none;
+  background: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 12px;
+  outline: none;
+}
+
+#status {
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 16px;
+}
+
+button:hover,
+button:focus {
+  background: #ccc;
+}
+
+h3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+h3 small {
+  font-size: 14px;
+  display: block;
+}
